@@ -277,14 +277,4 @@ if __name__ == "__main__":
         print(f"\n💥💥💥 Critical error during script execution: {e} 💥💥💥")
         traceback.print_exc()
 
-# --- Removed old code ---
-# def collect_user_preferences() -> str:
-#     name = input("What's your name? ")
-#     location = input("Where are you located? (optional) ")
-#     topic = input("What's your favorite topic or interest? ")
-#     taste = input("Do you have a taste preference (e.g. spicy, sweet)? ")
 
-#     pref = f"User {name} from {location or 'unknown location'} likes {topic} and prefers {taste or 'no specific taste'}."
-#     return pref
-
-# ... (rest of old main logic)

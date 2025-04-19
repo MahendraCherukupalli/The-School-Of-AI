@@ -85,39 +85,3 @@ async def execute_action(state: AppState, decision: PerceptionOutput) -> ActionR
         # import traceback
         # traceback.print_exc()
         return ActionResult(success=False, error=error_msg)
-
-# --- Removed old code ---
-# from pydantic import BaseModel
-# from typing import Dict, Any
-# import os
-
-# recipient_email = os.getenv("RECIPIENT_EMAIL")
-
-# class ActionInput(BaseModel):
-#     action: str
-#     args: Dict[str, Any]
-#     tools: Any
-#     session: Any  # MCP session
-
-# class ActionOutput(BaseModel):
-#     result: str
-#     success: bool
-
-# async def act(input_data: ActionInput) -> ActionOutput:
-#     func_name = input_data.action
-#     args = input_data.args
-#     tool = next((t for t in input_data.tools if t.name == func_name), None)
-#     if not tool:
-#         return ActionOutput(result=f"Tool {func_name} not found", success=False)
-
-#     try:
-#         if func_name == "send_gmail":
-#             args['recipient'] = recipient_email
-
-#         result = await input_data.session.call_tool(func_name, arguments=args)
-
-#         result_text = str(result.content) if hasattr(result, 'content') else str(result)
-#         return ActionOutput(result=result_text, success=True)
-
-#     except Exception as e:
-#         return ActionOutput(result=str(e), success=False)

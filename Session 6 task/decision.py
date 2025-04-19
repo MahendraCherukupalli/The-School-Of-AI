@@ -111,24 +111,3 @@ async def decide_next_action(state: AppState) -> PerceptionOutput:
             llm_raw_response=llm_raw_response, # Include raw response if available
             error=error_message or "Unknown error prevented perception result generation"
         )
-
-# --- Removed old code ---
-# from pydantic import BaseModel
-# from typing import List, Dict
-
-# class DecisionInput(BaseModel):
-#     func_name: str
-#     parameters: List[str]
-
-# class DecisionOutput(BaseModel):
-#     action: str
-#     args: Dict[str, str]
-
-# def decide(input_data: DecisionInput) -> DecisionOutput:
-#     if input_data.func_name == "error":
-#         raise ValueError("LLM returned error: " + " ".join(input_data.parameters))
-
-#     return DecisionOutput(
-#         action=input_data.func_name,
-#         args={f"param_{i}": p for i, p in enumerate(input_data.parameters)}
-#     )
