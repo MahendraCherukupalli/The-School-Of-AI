@@ -2,14 +2,14 @@ import google.generativeai as genai
 import os
 import logging
 from decision import NO_CONTEXT_RESPONSE # Import the predefined response
-
+from dotenv import load_dotenv
 # Configure basic logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
+load_dotenv() 
 # --- LLM Setup ---
 # Consider moving API key management to a more secure location (e.g., env variables, secrets manager)
 # For now, hardcoding as it was in the original script, but add a check.
-API_KEY = "AIzaSyASRi_AbdLiLyc02JCYBcltPu-kLUfUWNQ" # Replace with your actual key or load from env
+API_KEY = os.getenv("GEMINI_API_KEY") # Replace with your actual key or load from env
 if not API_KEY:
     logging.error("GEMINI_API_KEY is not set. Please configure the API key.")
     # Depending on the application, you might want to raise an exception or exit here.
