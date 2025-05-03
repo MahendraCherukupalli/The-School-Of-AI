@@ -1,0 +1,9 @@
+google-api-python-client>=2.0.0
+google-auth-oauthlib>=0.7.0
+google-auth-httplib2>=0.1.0
+httpx>=0.25.0
+python-telegram-bot[ext]>=20.0
+python-dotenv>=1.0.0
+flask>=2.3.0
+requests>=2.30.0
+pydantic>=2.0.0
