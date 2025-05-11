@@ -1,0 +1,36 @@
+[
+  {
+    "timestamp": 1746599286.4744976,
+    "type": "run_metadata",
+    "text": "Started new session with input: How much Anmol singh paid for his DLF apartment via Capbridge?  at 2025-05-07T06:28:06.474497",
+    "tool_name": null,
+    "tool_args": null,
+    "tool_result": null,
+    "final_answer": null,
+    "tags": [
+      "run_start"
+    ],
+    "success": null,
+    "metadata": {
+      "start_time": "2025-05-07T11:58:06.474497",
+      "step": 0
+    }
+  },
+  {
+    "timestamp": 1746599355.6398149,
+    "type": "run_metadata",
+    "text": "Started new session with input: How much Anmol singh paid for his DLF apartment via Capbridge?  at 2025-05-07T06:29:15.639814",
+    "tool_name": null,
+    "tool_args": null,
+    "tool_result": null,
+    "final_answer": null,
+    "tags": [
+      "run_start"
+    ],
+    "success": null,
+    "metadata": {
+      "start_time": "2025-05-07T11:59:15.639814",
+      "step": 0
+    }
+  }
+]

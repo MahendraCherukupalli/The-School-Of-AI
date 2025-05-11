@@ -1,0 +1,16 @@
+asyncio>=3.4.3
+bs4>=0.0.2
+dotenv>=0.9.9
+faiss-cpu
+httpx>=0.28.1
+# llama-index>=0.12.31
+# llama-index-embeddings-google-genai>=0.1.0
+markitdown
+# mcp
+pillow
+pydantic
+pymupdf4llm
+requests
+rich
+tqdm
+trafilatura

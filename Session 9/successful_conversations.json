@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "timestamp": "2025-05-11 22:07:27",
+        "normalized_question": "Find the ASCII values of characters in INDIA and then return sum of exponentials of those values.",
+        "final_answer": "7.599822246093079e+33"
+    },
+    {
+        "id": 2,
+        "timestamp": "2025-05-11 22:08:14",
+        "normalized_question": "How much Anmol singh paid for his DLF apartment via Capbridge?",
+        "final_answer": "On October 06, 2022, Capbridge paid Rs. 42.94 Crore to DLF as part of the consideration for an apartment in the project The Camellias booked by Jasminder Kaur."
+    },
+    {
+        "id": 3,
+        "timestamp": "2025-05-11 22:08:48",
+        "normalized_question": "Summarize this page: https://theschoolof.ai/",
+        "final_answer": "This webpage discusses A disciplined and structured approach to learning and implementing the fundamentals of AIML.\\n\\nthrough bleeding edge concepts, and an amazing peer group to learn with.\\n\\nThrough ERA, EMLO and EPAi, TSAI has trained more than 7000 students! And now we have added EAG, a course dedicated to Agents, to this list!\\n\\nThis comprehensive 20-session course equips students to build advanced Agentic AI systems, capable of autonomous decision-making, task orchestration, and seamless interaction within complex web environments. Unlike traditional AI programs, this curriculum focuses on designing browser-based agents that leverage the latest advancements in LLMs, retrieval-augmented systems, and multi-..."
+    },
+    {
+        "id": 4,
+        "timestamp": "2025-05-11 22:09:16",
+        "normalized_question": "What is DLF's stated approach to water conservation?",
+        "final_answer": "DLF's approach to water conservation includes rainwater harvesting wells, sensor-based and high efficiency fixtures, low flow taps and faucets with aerators, Pressure Reducing Valves, and high-efficiency volute systems in STPs. They have also achieved 'LEED Zero Water' certification for some properties by achieving a potable water use balance of zero."
+    },
+    {
+        "id": 5,
+        "timestamp": "2025-05-11 22:09:46",
+        "normalized_question": "Outline the primary recommendations or solutions proposed in the analysis of Tesla's intellectual property and the carbon crisis.",
+        "final_answer": "The primary recommendations or solutions proposed in the analysis of Tesla's intellectual property and the carbon crisis include Tesla adopting an open source philosophy in respect of its intellectual property to encourage the development of the electric car industry and address the carbon crisis. This involved Elon Musk announcing that all Tesla patents belong to everyone and removing the wall of Tesla patents from their headquarters. The analysis also considers the implications of this move, including its potential impact on innovation, competition, and the company's value, as well as the importance of good faith use of the patents."
+    },
+    {
+        "id": 6,
+        "timestamp": "2025-05-11 22:10:13",
+        "normalized_question": "Summarize this page: https://www.analyticsvidhya.com/blog/2019/08/11-important-model-evaluation-error-metrics/#Confusion_Matrix",
+        "final_answer": "This webpage discusses model evaluation error metrics. It begins with an introduction to evaluation metrics, emphasizing their importance in machine learning. Key metrics discussed include the confusion matrix, which is explained in detail. The article covers true positive, true negative, false positive, and false negative rates, providing formulas and examples. It also delves into other important metrics like accuracy, precision, recall, F1-score, and AUC-ROC curve. The discussion extends to regression metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared, explaining their calculation and interpretation. The blog post appears to provide a comprehensive overview of various model evaluation techniques, suitable for data science practitioners."
+    },
+    {
+        "id": 7,
+        "timestamp": "2025-05-11 22:10:48",
+        "normalized_question": "How much Capbridge paid for Anmol sing DLF apartment?",
+        "final_answer": "Capbridge Ventures paid \u20b9 42.94 crore to DLF Ltd for the DLF Camellias apartment purchased for Anmol Singh Jaggi."
+    }
+]
