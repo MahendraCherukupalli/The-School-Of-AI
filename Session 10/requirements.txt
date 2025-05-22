@@ -1,0 +1,22 @@
+# Core dependencies
+pydantic>=2.11.3
+faiss-cpu>=1.10.0
+numpy>=1.24.0
+PyYAML>=6.0
+tqdm>=4.67.1
+markitdown[all]>=0.1.1
+pymupdf4llm>=0.0.21
+trafilatura[all]>=2.0.0
+python-dotenv>=1.0.0
+
+# Google API dependencies
+google-generativeai>=0.4.0
+
+# Utility libraries
+rapidfuzz>=3.13.0
+requests>=2.32.3
+asyncio>=3.4.3
+bs4>=0.0.2
+
+# MCP related
+mcp[cli]>=1.7.0 

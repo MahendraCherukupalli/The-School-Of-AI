@@ -1,0 +1,2 @@
+Total Queries,Successful,Failed,HITL Required,Auto-HITL Used,User-HITL Used,Most Common Error,Avg Time Per Query
+104,96,8,55,55,0,PerceptionSnapshot.__init__() missing 1 required positional argument: 'last_tooluse_summary',49.12 seconds

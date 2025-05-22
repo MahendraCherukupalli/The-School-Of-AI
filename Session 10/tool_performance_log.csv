@@ -1,0 +1,16 @@
+Tool Name,Calls,Success,Failure
+add,5,5,0
+factorial,1,1,0
+search_stored_documents_rag,35,35,0
+sin,2,2,0
+subtract,4,4,0
+multiply,14,14,0
+divide,4,4,0
+cbrt,4,4,0
+duckduckgo_search_results,42,40,2
+remainder,4,4,0
+power,6,6,0
+cos,4,4,0
+convert_webpage_url_into_markdown,6,6,0
+tan,2,2,0
+download_raw_html_from_url,2,2,0
